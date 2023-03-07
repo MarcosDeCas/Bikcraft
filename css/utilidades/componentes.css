@@ -41,7 +41,7 @@
 
 .link:hover{
   color: var(--c00);
-  margin-left: 8px;
+  margin-left: 12px;
   transition: 0.5s;
 }
 
