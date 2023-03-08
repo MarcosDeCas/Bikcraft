@@ -1,5 +1,7 @@
-@import "global.css";
-@import "header.css";
+/* Global */
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
 
 /* Utilidades */
 @import "utilidades/cores.css";
@@ -14,3 +16,6 @@
 
 /* bicicletas */
 @import "bicicletas/bicicletas-lista.css";
+
+/* seguros */
+@import "seguros/seguros.css"
