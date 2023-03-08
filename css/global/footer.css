@@ -54,11 +54,12 @@
 
 @media (max-width: 800px) {
   .footer img {
-    margin-bottom: 40px;
+    display: none;
   }
   .footer {
     gap: 60px;
     grid-template-columns: 1fr;
+    padding-top: 20px;
   }
   .footer-copy {
     margin-top: 0px;
