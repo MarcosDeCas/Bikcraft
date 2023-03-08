@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap");
+
+.depoimento {
+  color: var(--P5);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--P1);
+}
+
+.depoimento span {
+  color: var(--P4);
+}
+
+.depoimento img {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.depoimento-conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+}
+
+.depoimento-conteudo p {
+  max-width: 32ch;
+  font: 900 2rem/1.25 "Merriweather", serif;
+  font-style: italic;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.depoimento p::before,
+.depoimento p::after {
+  font-size: 5rem;
+  color: var(--P2);
+  position: absolute;
+}
+
+.depoimento p::before {
+  content: "“";
+  left: -50px;
+  top: -20px;
+}
+
+.depoimento p::after {
+  content: "”";
+}
+
+.depoimento-conteudo span {
+  align-self: end;
+}
+
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento-conteudo {
+    padding: 40px 20px;
+  }
+  .depoimento img {
+    max-height: 200px;
+  }
+  .depoimento-conteudo p {
+    font-size: 1.5rem;
+    margin: 12px auto 32px auto;
+  }
+  .depoimento-conteudo span {
+    align-self: center;
+  }
+  .depoimento p::before {
+    font-size: 3rem;
+    left: -28px;
+    top: -10px;
+  }
+  .depoimento p::after {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .depoimento p::before {
+    left: -20px;
+    top: -10px;
+  }
+}
