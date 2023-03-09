@@ -32,6 +32,26 @@
   background: var(--c09);
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta::after{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../figma/seta.svg") no-repeat;
+  transition: transform 0.2s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px
+  );
+}
+
 .link {
   position: relative;
   display: inline-block;
