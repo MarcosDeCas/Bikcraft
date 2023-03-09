@@ -30,6 +30,10 @@
   font: 400 1rem/1.5 'Poppins', sans-serif;
 }
 
+.font-1-d-bold {
+  font: 600 1rem/1.5 'Poppins', sans-serif;
+}
+
 .font-1-e-bold {
   font: 600 0.75rem/1.35 'Poppins', sans-serif;
 }
