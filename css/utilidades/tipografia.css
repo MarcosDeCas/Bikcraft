@@ -40,6 +40,14 @@
 
 /* -------- */
 
+.font-2-ss {
+  font: 400 2rem/1.5 'Roboto', sans-serif;
+}
+
+.font-2-ss-bold {
+  font: 500 2rem/1.5 'Roboto', sans-serif;
+}
+
 .font-2-s {
   font: 400 1.5rem/1.5 'Roboto', sans-serif;
 }

@@ -1,8 +1,8 @@
-.bicicleta-bg{
+.bicicletas-bg{
   background-image: linear-gradient(to right, var(--c00) 30%, var(--c11) 0%);
 }
 
-.bicicleta-bg h2 {
+.bicicletas-bg h2 {
   color: var(--c00);
 }
 
@@ -10,7 +10,7 @@
   color: var(--c07);
 }
 
-.bicicleta-bg p {
+.bicicletas-bg p {
   color: var(--c05);
 }
 
@@ -18,7 +18,7 @@
   color: var(--c07);
 }
 
-.bicicleta-bg li {
+.bicicletas-bg li {
   color: var(--c05);
 }
 
@@ -114,7 +114,7 @@
 } 
 
 @media (max-width: 800px) {
-  .bicicleta-bg{
+  .bicicletas-bg{
     background-image: none;
     background-color: var(--c11);
   }

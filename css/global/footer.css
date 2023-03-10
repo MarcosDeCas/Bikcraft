@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 800px) {
-  .footer img {
+  .bikcraft{
     display: none;
   }
   .footer {
