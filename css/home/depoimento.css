@@ -20,6 +20,7 @@
 }
 
 .depoimento-conteudo {
+  background: url("../../decorador/bottom-right-p.svg") no-repeat bottom 40px right 40px;
   display: flex;
   flex-direction: column;
   padding: 40px 40px 80px 80px;
@@ -87,5 +88,11 @@
   .depoimento p::before {
     left: -20px;
     top: -10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
   }
 }

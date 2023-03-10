@@ -7,7 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
   <title>Bikcraft - Bicicletas Elétricas</title>
+
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="css/style.css" as="style">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -16,7 +21,7 @@
 <body>
   <header class="header-bg">
     <div class="header container">
-      <a href="index.html"><img src="figma/bikcraft.svg" alt="Bikcraft"></a>
+      <a href="index.html"><img src="figma/bikcraft.svg" alt="Bikcraft" width="136" height="32"></a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-c">
           <li><a href="bicicletas.html">Bicicletas</a></li>
@@ -34,9 +39,10 @@
         <p class="font-2-s">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="botao" href="bicicletas.html">Escolha a sua</a>
       </div>
-      <div>
-        <img src="img/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
-      </div>
+      <picture>
+          <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+          <img src="img/fotos/introducao.jpg" alt="Bicicleta elétrica preta" width="1280" height="1600"></source>
+      </picture>
     </div>
   </main>
 
@@ -46,7 +52,7 @@
     <ul>
       <li>
         <a href="./bicicletas/magic.html">
-          <img src="img/bicicletas/magic-home.jpg" alt="Bicicletas preta">
+          <img src="img/bicicletas/magic-home.jpg" alt="Bicicletas preta" width="920" height="1040">
           <h3 class="font-1-a-bold">Magic Might</h3>
           <span class="preço font-2-a-bold">R$ 2499</span>
         </a>
@@ -54,7 +60,7 @@
 
       <li>
         <a href="./bicicletas/nimbus.html">
-          <img src="img/bicicletas/nimbus-home.jpg" alt="Bicicletas preta">
+          <img src="img/bicicletas/nimbus-home.jpg" alt="Bicicletas preta" width="920" height="1040">
           <h3 class="font-1-a-bold">Nimbus Stark</h3>
           <span class="preço font-2-a-bold">R$ 4999</span>
         </a>
@@ -62,7 +68,7 @@
 
       <li>
         <a href="./bicicletas/nebula.html">
-          <img src="img/bicicletas/nebula-home.jpg" alt="Bicicletas preta">
+          <img src="img/bicicletas/nebula-home.jpg" alt="Bicicletas preta" width="920" height="1040">
           <h3 class="font-1-a-bold">Nebula Cosmic</h3>
           <span class="preço font-2-a-bold">R$ 3999</span>
         </a>
@@ -81,12 +87,12 @@
 
         <div class="tecnologia-vantagens">
           <div>
-            <img src="icones/eletrica.svg" alt="">
+            <img src="icones/eletrica.svg" alt="" width="32" height="24">
             <h3 class="font-1-c-bold">Motor Elétrico</h3>
             <p class="font-2-b">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
           </div>
           <div>
-            <img src="icones/rastreador.svg" alt="">
+            <img src="icones/rastreador.svg" alt="" width="32" height="24">
             <h3 class="font-1-c-bold">Rastreador</h3>
             <p class="font-2-b">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
           </div>
@@ -94,7 +100,7 @@
       </div>
 
       <div class="tecnologia-imagem">
-        <img src="img/fotos/tecnologia.jpg" alt="">
+        <img src="img/fotos/tecnologia.jpg" alt="" width="1200" height="1920">
       </div>
 
     </div>
@@ -104,20 +110,20 @@
     <h2 class="font-1-s-bold container">nossos parceiros<span class="ponto-detalhe">.</span></h2>
 
     <ul>
-      <li><img src="parceiros/caravan.svg" alt="Caravan"></li>
-      <li><img src="parceiros/ranek.svg" alt="Ranek"></li>
-      <li><img src="parceiros/handel.svg" alt="Handel"></li>
-      <li><img src="parceiros/dogs.svg" alt="Dogs"></li>
-      <li><img src="parceiros/lescone.svg" alt="Lescone"></li>
-      <li><img src="parceiros/flexblog.svg" alt="Flexblog"></li>
-      <li><img src="parceiros/wildbeast.svg" alt="wildbeast"></li>
-      <li><img src="parceiros/surfbot.svg" alt="Surfbot"></li>
+      <li><img src="parceiros/caravan.svg" alt="Caravan" width="152" height="42"></li>
+      <li><img src="parceiros/ranek.svg" alt="Ranek" width="161" height="39"></li>
+      <li><img src="parceiros/handel.svg" alt="Handel" width="151" height="55"></li>
+      <li><img src="parceiros/dogs.svg" alt="Dogs" width="165" height="43"></li>
+      <li><img src="parceiros/lescone.svg" alt="Lescone" width="208" height="41"></li>
+      <li><img src="parceiros/flexblog.svg" alt="Flexblog" width="164" height="38"></li>
+      <li><img src="parceiros/wildbeast.svg" alt="wildbeast" width="196" height="34"></li>
+      <li><img src="parceiros/surfbot.svg" alt="Surfbot" width="200" height="49"></li>
     </ul>
   </section>
 
   <section class="depoimento" aria-label="Depoimento">
     <div>
-      <img src="img/fotos/depoimento.jpg" alt="Pessoa pedalando uma bicicleta Bikcraft">
+      <img src="img/fotos/depoimento.jpg" alt="Pessoa pedalando uma bicicleta Bikcraft" width="1560" height="1360">
     </div>
     <div class="depoimento-conteudo">
       <blockquote>
@@ -129,8 +135,8 @@
 
   <article class="seguros-bg">
     <div class="seguros container">
-          <h2 class="font-1-s-bold">seguros<span class="ponto-detalhe">.</span></h2>
-        
+      <h2 class="font-1-s-bold">seguros<span class="ponto-detalhe">.</span></h2>
+
 
       <div class="seguros-item">
         <h3 class="font-1-a-bold prata">Prata</h3>
@@ -165,42 +171,42 @@
   </article>
 
   <footer class="footer-bg">
-<div class="footer container">
-  <a href="index.html"><img class="bikcraft" src="figma/bikcraft.svg" alt="Bikcraft"></a>
-  <div class="footer-contato">
-    <h3 class="font-2-a-bold">Contato</h3>
-    <ul class="font-2-b-bold">
-      <li><a href="tel:+5521983279978">+55 21 98327-9978</a></li>
-      <li>joaomarcos.d.castro@hotmail.com</li>
-      <li>Rua Ali Perto, 42 - Nova Iguaçu</li>
-      <li>Rio de Janeiro</li>
-      <div class="footer-redes">
-        <a href="./">
-          <img src="icones/instagram.svg" alt="Instagram">
-        </a>
-        <a href="./">
-          <img src="icones/facebook.svg" alt="Facebook">
-        </a>
-        <a href="./">
-          <img src="icones/youtube.svg" alt="Youtube">
-        </a>
+    <div class="footer container">
+      <a href="index.html"><img class="bikcraft" src="figma/bikcraft.svg" alt="Bikcraft" width="136" height="32"></a>
+      <div class="footer-contato">
+        <h3 class="font-2-a-bold">Contato</h3>
+        <ul class="font-2-b-bold">
+          <li><a href="tel:+5521983279978">+55 21 98327-9978</a></li>
+          <li>joaomarcos.d.castro@hotmail.com</li>
+          <li>Rua Ali Perto, 42 - Nova Iguaçu</li>
+          <li>Rio de Janeiro</li>
+          <div class="footer-redes">
+            <a href="./">
+              <img src="icones/instagram.svg" alt="Instagram" width="37" height="37">
+            </a>
+            <a href="./">
+              <img src="icones/facebook.svg" alt="Facebook" width="38" height="37">
+            </a>
+            <a href="./">
+              <img src="icones/youtube.svg" alt="Youtube" width="37" height="26">
+            </a>
+          </div>
+        </ul>
       </div>
-    </ul>
-  </div>
 
-  <div class="footer-informacoes">
-    <h3 class="font-2-a-bold">Informações</h3>
-    <nav>
-      <ul class="font-2-b-bold">
-        <li><a href="bicicletas.html">Bicicletas</a></li>
-          <li><a href="seguros.html">Seguros</a></li>
-          <li><a href="contato.html">Contato</a></li>
-          <li><a href="termos.html">Termos e Condições</a></li>
-      </ul>
-    </nav>
-  </div>
-  <p class="font-2-b-bold footer-copy">Bikcraft © Alguns direitos reservados.</p>
-</div>
+      <div class="footer-informacoes">
+        <h3 class="font-2-a-bold">Informações</h3>
+        <nav>
+          <ul class="font-2-b-bold">
+            <li><a href="bicicletas.html">Bicicletas</a></li>
+            <li><a href="seguros.html">Seguros</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="termos.html">Termos e Condições</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="font-2-b-bold footer-copy">Bikcraft © Alguns direitos reservados.</p>
+    </div>
   </footer>
 
 </body>

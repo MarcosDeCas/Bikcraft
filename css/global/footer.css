@@ -45,6 +45,11 @@
 .footer-redes {
   display: flex;
   gap: 32px;
+  align-items: center;
+}
+
+.footer-redes a:last-child {
+ padding-top: 4px;
 }
 
 .footer-copy {
