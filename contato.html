@@ -17,6 +17,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
 </head>
 
 <body id="contato">
@@ -36,12 +39,12 @@
   <main>
     <div class="titulo-bg">
       <div class="titulo container">
-        <p class="font-2-s-bold">respostas em até 24h</p>
-        <h1 class="font-1-s-bold">nosso contato<span class="ponto-detalhe">.</span></h1>
+        <p class="font-2-s-bold fadeInDown" data-anime="200">respostas em até 24h</p>
+        <h1 class="font-1-s-bold fadeInDown" data-anime="400">nosso contato<span class="ponto-detalhe">.</span></h1>
       </div>
     </div>
 
-    <div class="contato container">
+    <div class="contato container fadeInDown" data-anime="600">
       <section class="contato-dados" aria-label="Endereço">
         <h2 class="font-1-c-bold">Loja Online</h2>
         <div class="contato-endereco font-2-b">
@@ -170,6 +173,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

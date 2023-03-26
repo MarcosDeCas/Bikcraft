@@ -16,6 +16,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
 </head>
 
 <body id="bicicletas">
@@ -35,27 +38,27 @@
   <main>
     <div class="titulo-bg">
       <div class="titulo container">
-        <p class="font-2-s-bold">escolha o mehor para você</p>
-        <h1 class="font-1-s-bold">nossa bicicltas<span class="ponto-detalhe">.</span></h1>
+        <p class="font-2-s-bold fadeInDown" data-anime="200">escolha o mehor para você</p>
+        <h1 class="font-1-s-bold fadeInDown" data-anime="400">nossa bicicltas<span class="ponto-detalhe">.</span></h1>
       </div>
     </div>
 
 
     <div class="bicicletas container">
-      <div class="bicicletas-imagem">
+      <div class="bicicletas-imagem fadeInDown" data-anime="800">
         <img src="img/bicicletas/nimbus.jpg" alt="Bicicleta preta" width="1120" height="680">
         <span class="font-2-b">R$ 4999</span>
       </div>
       <div class="bicicletas-conteudo">
-        <h2 class="font-1-a-bold">Nimbus Stark</h2>
-        <p class="font-2-b">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+        <h2 class="font-1-a-bold fadeInDown" data-anime="600">Nimbus Stark</h2>
+        <p class="font-2-b fadeInDown" data-anime="600">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
         <ul class="font-1-c">
-          <li><img src="icones/eletrica.svg" alt="" width="32" height="32">Motor Elétrico</li>
-          <li><img src="icones/carbono.svg" alt="" width="32" height="32">Fibra de Carbono</li>
-          <li><img src="icones/velocidade.svg" alt="" width="32" height="32">50 km/h</li>
-          <li><img src="icones/rastreador.svg" alt="" width="32" height="32">Rastreador</li>
+          <li class="fadeInDown" data-anime="800"><img src="icones/eletrica.svg" alt="" width="32" height="32">Motor Elétrico</li>
+          <li class="fadeInDown" data-anime="900"><img src="icones/carbono.svg" alt="" width="32" height="32">Fibra de Carbono</li>
+          <li class="fadeInDown" data-anime="1000"><img src="icones/velocidade.svg" alt="" width="32" height="32">50 km/h</li>
+          <li class="fadeInDown" data-anime="1100"><img src="icones/rastreador.svg" alt="" width="32" height="32">Rastreador</li>
         </ul>
-        <a class="botao seta" href="../bicicletas/nimbus.html">Mais sobre</a>
+        <a class="botao seta fadeInDown" data-anime="1200" href="../bicicletas/nimbus.html">Mais sobre</a>
       </div>
     </div>
 
@@ -145,6 +148,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

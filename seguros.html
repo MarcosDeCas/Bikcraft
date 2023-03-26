@@ -17,6 +17,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
 </head>
 
 <body id="seguros">
@@ -38,13 +41,13 @@
   <main class="seguros-bg">
     <div class="titulo-bg">
       <div class="titulo container">
-        <p class="font-2-s-bold">escolha o seguro</p>
-        <h1 class="font-1-s-bold">você seguro<span class="ponto-detalhe">.</span></h1>
+        <p class="font-2-s-bold fadeInDown" data-anime="200">escolha o seguro</p>
+        <h1 class="font-1-s-bold fadeInDown" data-anime="400">você seguro<span class="ponto-detalhe">.</span></h1>
       </div>
     </div>
 
     <div class="seguros container">
-      <div class="seguros-item">
+      <div class="seguros-item fadeInDown" data-anime="600">
         <h3 class="font-1-a-bold prata">Prata</h3>
         <span class="font-1-a-bold">R$ 199 <span class="font-1-e-bold">mensal</span></span>
 
@@ -58,7 +61,7 @@
         <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Increva-se</a>
       </div>
 
-      <div class="seguros-item">
+      <div class="seguros-item fadeInDown" data-anime="800">
         <h3 class="font-1-a-bold ouro">Ouro</h3>
         <span class="font-1-a-bold">R$ 299 <span class="font-1-e-bold">mensal</span></span>
 
@@ -123,27 +126,27 @@
       </div>
 
       <div>
-        <dt ><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta2">Como posso entrar em contato?</button></dt>
+        <dt><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta2">Como posso entrar em contato?</button></dt>
         <dd id="pergunta2" class="font-2-b">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
 
       <div>
-        <dt ><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta3">Vocês possuem algum desconto?</button></dt>
+        <dt><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta3">Vocês possuem algum desconto?</button></dt>
         <dd id="pergunta3" class="font-2-b">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
 
       <div>
-        <dt ><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta4">Qual a garantia que possuo?</button></dt>
+        <dt><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta4">Qual a garantia que possuo?</button></dt>
         <dd id="pergunta4" class="font-2-b">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
 
       <div>
-        <dt ><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta5">Posso parcelar no boleto?</button></dt>
+        <dt><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta5">Posso parcelar no boleto?</button></dt>
         <dd id="pergunta5" class="font-2-b">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmo</button>s PIX e Boleto através do PagSeguro.</dd>
       </div>
 
       <div>
-        <dt ><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta6">Quantas trocas posso fazer ao ano?</button></dt>
+        <dt><button class="font-1-c-bold" aria-expanded="false" aria-controls="pergunta6">Quantas trocas posso fazer ao ano?</button></dt>
         <dd id="pergunta6" class="font-2-b">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
     </dl>
@@ -189,6 +192,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
